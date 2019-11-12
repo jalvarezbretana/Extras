@@ -21,7 +21,7 @@ public class CalculoParImpar {
     public void calcular() {
 
         System.out.println("Dame 10 números");
-        while (contador < 10) {
+        while (contador <= 10) {
             num = sc.nextInt();
 
             if (num % 2 == 0) {
